@@ -4,3 +4,5 @@
 "golang.org/x/crypto/bcrypt"
 "github.com/go-sql-driver/mysql"
 "github.com/joho/godotenv"
+"go get  github.com/gofiber/fiber/v2"
+"go get github.com/google/uuid"

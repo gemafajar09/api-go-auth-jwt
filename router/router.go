@@ -20,6 +20,7 @@ func RouterAlamat(db *gorm.DB) *gin.Engine {
 	sudahlogin := r.Group("/admin")
 	sudahlogin.Use(middleware.Middleware())
 	sudahlogin.GET("/user", controller.UserId)
+	belumlogin.POST("/upload", controller.AddProduk)
 
 	return r
 }

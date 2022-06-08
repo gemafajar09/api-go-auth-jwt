@@ -11,6 +11,7 @@ func main() {
 
 	db := api.Koneksi()
 	db.AutoMigrate(&model.User{})
+	db.AutoMigrate(&model.Produk{})
 
 	r := router.RouterAlamat(db)
 	r.Run(":3030")
