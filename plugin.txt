@@ -1,0 +1,6 @@
+"github.com/gin-gonic/gin"
+"github.com/jinzhu/gorm"
+"github.com/dgrijalva/jwt-go"
+"golang.org/x/crypto/bcrypt"
+"github.com/go-sql-driver/mysql"
+"github.com/joho/godotenv"
